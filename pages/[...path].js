@@ -6,7 +6,7 @@ import styles from '../styles.module.css'
 export const getStaticPaths = async () => {
 	return {
 		paths: [{ params: { path: ["about"] } }],
-		fallback: true
+		fallback: false
 	}
 }
 
